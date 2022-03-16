@@ -1,0 +1,23 @@
+logging.level.root: INFO
+
+total:
+  property: TOTAL
+
+---
+spring.config.activate.on-profile: INTERNAL
+internal:
+  property: INTERNAL
+
+---
+spring.config.activate.on-profile: LOCAL
+my-service:
+  property1: LOCAL1
+  property2: LOCAL2
+
+---
+spring.config.activate.on-profile: DEV
+my-service:
+  property1: DEV1
+  property2: DEV2
+
+---

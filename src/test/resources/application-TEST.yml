@@ -1,0 +1,14 @@
+logging.level.root: INFO
+
+total:
+  property: TEST_TOTAL
+
+internal:
+  property: TEST_INTERNAL
+
+my-service:
+  property1: TEST1
+  property2: TEST2
+
+external:
+  property: TEST-EXTERNAL
